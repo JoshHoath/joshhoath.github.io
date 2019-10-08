@@ -1,0 +1,305 @@
+* {
+    font-family: sans-serif arial;
+}
+.title {
+    font-weight: normal;
+}
+.bg-custom {
+    background-color: $light-blue;
+}
+.buffer {
+    height: 1vh;
+}
+.navbar{
+    -webkit-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+    font-weight: normal;
+    position: fixed;
+    width: 100%;
+        h2 {
+            font-size: 16px;
+        }
+        li {
+            color: white;
+        }
+}
+.btn-custom {
+    background-color: $light-blue;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+        i {
+            padding-left: 5px;
+        }
+        a {
+            color: white;
+        }
+}
+.first-image {
+    background: url("/images/firemerge.jpg") no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.first-call-to-action {
+    width: 50%;
+    height: 25vh;
+    margin-top: 65vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(220, 220, 220, 0.7);
+    text-align: center;
+        h1 {
+            font-size: 28px;
+            text-indent: 20px;
+            padding: 1rem;
+            font-family: helvetica;
+        }
+}
+.second-image{
+    background: url("/images/ChildrenCarrying.jpg") no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.second-call-action {
+    width: 30%;
+    height: 60vh;
+    margin-top: 20vh;
+    margin-left: 10%;
+    background-color:  rgba(220, 220, 220, 0.7);
+    text-align: center;
+        h2 {
+            text-align: center;
+            font-family: helvetica;
+            padding: 1rem;
+        }
+        p {
+            padding: 1rem;
+            font-size: 20px;
+        }
+}
+.third-image {
+    background: url("/images/TreeAndSky.jpg") no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.third-call-action {
+    width: 50%;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50vh;
+    background-color: rgba(220, 220, 220, 0.7);
+    text-align: center;
+        h2 {
+            text-align: center;
+            padding: 1rem;
+            font-family: helvetica;
+        }
+        p {
+            padding: 1rem;
+            font-size: 20px;
+        }
+}
+.main-page-projects {
+    background-color: $biege;
+        h2 {
+            text-align: center;
+            font-family: helvetica;
+            padding-top: 2rem;
+        }
+        h5 {
+            text-align: center;
+            font-family: helvetica;
+            padding-top: 2rem;
+        }
+        .row {
+            height: 100vh;
+            width: 100%;
+                .project-one-panel {
+                    height: 70%;
+                    margin-top: 10vh;
+                    background: url("/images/packing.jpg");
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: fill;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    border-radius: 12px;
+                        .project-one-panel-title {
+                            margin-top: 3rem;
+                            h3 {
+                                font-family: helvetica;
+                                text-align: center;
+                                color: white;
+                                padding: 1rem;
+                            }
+                        }
+                        .project-one-panel-text {
+                            margin-top: 18rem;
+                            margin-bottom: 2rem;
+                            background-color: $project-text-grey;
+                            text-align: center;
+                                p {
+                                    text-indent: 20px;
+                                    padding: .5rem;
+                                    margin: 0;
+                                }
+                                button {
+                                    padding-right: 17px;
+                                }
+                        }
+                }
+                .project-two-panel {
+                    height: 70%;
+                    margin-top: 10vh;
+                    background: url("/images/Bomaru1.jpg");
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: fill;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    border-radius: 12px;
+                    .project-two-panel-title {
+                        margin-top: 3rem;
+                        h3 {
+                            font-family: helvetica;
+                            text-align: center;
+                            color: white;
+                            padding: 1rem;
+                        }
+                    }
+                    .project-two-panel-text {
+                        margin-top: 18rem;
+                        margin-bottom: 2rem;
+                        text-align: center;
+                        background-color: $project-text-grey;
+                            p {
+                                text-indent: 20px;
+                                padding: 1rem;
+                            }
+                            button {
+                                padding-right: 17px;
+                            }
+                    }
+
+                }
+                .project-three-panel {
+                    height: 70%;
+                    margin-top: 10vh;
+                    background: url("/images/charlesspeaking.jpg");
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: fill;
+                    background-position: left;
+                    background-repeat: no-repeat;
+                    border-radius: 12px;
+                        .project-three-panel-title {
+                            margin-top: 3rem;
+                            h3 {
+                                font-family: helvetica;
+                                text-align: center;
+                                color: white;
+                                padding: 1rem;
+                            }
+                        }
+                        .project-three-panel-text {
+                            background-color: $project-text-grey;
+                            margin-top: 18rem;
+                            margin-bottom: 2rem;
+                            text-align: center;
+                                p {
+                                    text-indent: 20px;
+                                    padding: 1rem;
+                                }
+                                button {
+                                    padding-right: 17px;
+                                }
+                        }
+                }
+                .project-four-panel {
+                    height: 70%;
+                    margin-top: 10vh;
+                    background: url("/images/groupofgirls.jpg");
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: fill;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    border-radius: 12px;
+                        .project-four-panel-title {
+                            margin-top: 3rem;
+                                h3 {
+                                    font-family: helvetica;
+                                    text-align: center;
+                                    color: white;
+                                    padding: 1rem;
+                                }
+                        }
+                        .project-four-panel-text {
+                            background-color: $project-text-grey;
+                            height: 18vh;
+                            margin-top: 18rem;
+                            margin-bottom: 2rem;
+                            text-align: center;
+                            P {
+                                text-indent: 20px;
+                                padding: 1rem;
+                            }
+                            button {
+                                padding-right: 17px;
+                            }
+                        }
+                }
+                .project-five-panel {
+                    height: 70%;
+                    margin-top: 10vh;
+                    background: url("/images/students.jpg");
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: fill;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    border-radius: 12px;
+                    .project-five-panel-title {
+                            margin-top: 3rem;
+                                h3 {
+                                    font-family: helvetica;
+                                    text-align: center;
+                                    color: white;
+                                    padding: 1rem;
+                                }
+                        }
+                        .project-five-panel-text {
+                            background-color: $project-text-grey;
+                            height: 18vh;
+                            margin-top: 18rem;
+                            margin-bottom: 2rem;
+                            text-align: center;
+                            P {
+                                text-indent: 20px;
+                                padding: 1rem;
+                            }
+                            button {
+                                padding-right: 17px;
+                            }
+                        }
+                }
+        }
+}

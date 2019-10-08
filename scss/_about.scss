@@ -1,0 +1,103 @@
+.about-first-image {
+    height: 100vh;
+    background: url('/images/training.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+        .about-first-panel {
+            margin-top: 15rem;
+            margin-left: 5%;
+            background-color: $project-text-grey;
+            height: 30vh;
+            width: 40%;
+                .about-first-panel-text {
+                    text-align: center;
+                    color: white;
+                    padding: 1rem;
+                        p {
+                            text-indent: 20px;
+                            text-align: left;
+                            padding: 1rem;
+                            color: white;
+                        }
+                }
+        }
+}
+.about-second-image {
+    height: 100vh;
+    background: url('/images/groupbytrees.jpg') no-repeat center center fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+        .about-second-panel {
+            margin-top: 25rem;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: $project-text-grey;
+            height: 40vh;
+            width: 70%;
+                .about-second-panel-text {
+                    text-align: center;
+                    color: white;
+                    padding: 1rem;
+                        p {
+                            text-indent: 20px;
+                            text-align: left;
+                            padding: 1rem;
+                            color: white;
+                        }
+                }
+        }
+}
+.about-third-image {
+    height: 100vh;
+    background: url('/images/workerbee.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+        .about-third-panel {
+            margin-top: 15rem;
+            margin-left: 5%;
+            background-color: $project-text-grey;
+            height: 40vh;
+            width: 30%;
+                .about-third-panel-text {
+                    text-align: center;
+                    color: white;
+                    padding: 1rem;
+                        p {
+                            text-indent: 20px;
+                            text-align: left;
+                            color: white;
+                            padding: 1rem;
+                        }
+                }
+        }
+}
+.news {
+    height: 100vh;
+    background-color: $biege;
+        h2 {
+            text-align: center;
+            padding-top: 5rem;
+        }
+}
+.2016-list {
+    margin: 1rem;
+    li {
+        list-style: none;
+    }
+}
+.2017-list {
+    li {
+        list-style: none;
+    }
+}
+.2019-list {
+    list-style: none;
+}
+.articles {
+
+}

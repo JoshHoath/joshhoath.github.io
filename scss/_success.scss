@@ -1,0 +1,240 @@
+.success {
+    padding-top: 10rem;
+    background-color: $biege;
+    padding-bottom: 15rem;
+    .success-description-one {
+        background-color: $project-text-grey;
+        height: 25vh;
+        margin-top: 4rem;
+            h3 {
+                font-size: 1.25rem;
+                text-indent: 20px;
+                padding: 2rem;
+                    a {
+                        color: black;
+                    }
+            }
+    }
+    .success-description-two {
+        background-color: $project-text-grey;
+        height: 25vh;
+        margin-top: 4rem;
+        h3 {
+            font-size: 1.25rem;
+            text-indent: 20px;
+            padding: 2rem;
+        }
+    }
+}
+.projects {
+    background-color: $biege;
+        .project-one {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 1rem;
+            padding-top: 3rem;
+            padding-bottom: 1.5rem;
+                h3 {
+                padding-bottom: 3rem;
+            }
+                .project-one-title {
+                    background-color: $light-blue;
+                    padding-top: 1rem;
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+                    padding-bottom: .5rem;
+                        h4 {
+                        padding-bottom: none;
+                    }
+                        button {
+                            margin-left: 20px;
+                        }
+                }
+                .goal-one-project-one {
+                    display: none;
+                    background-color: white;
+                    padding: none;
+                    height: 50%;
+                    img {
+                        width: 50%;
+                        height: 100%;
+                        float: left;
+                    }
+                    p {
+                        padding: 1rem;
+                        text-indent: 10px;
+                    }
+                }
+        }
+        .project-two {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 1rem;
+            padding-top: 1rem;
+            padding-bottom: 1.5rem;
+                h3 {
+                padding-bottom: 3rem;
+            }
+                .project-two-title {
+                    background-color: $light-blue;
+                    padding-top: 1rem;
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+                    padding-bottom: .5rem;
+                        h4 {
+                        padding-bottom: none;
+                    }
+                        button {
+                            margin-left: 20px;
+                        }
+                }
+                .goal-one-project-two {
+                    display: none;
+                    background-color: white;
+                    padding: none;
+                    height: 50%;
+                    img {
+                        width: 50%;
+                        height: 100%;
+                        float: left;
+                    }
+                    p {
+                        padding: 1rem;
+                        text-indent: 10px;
+                    }
+                }
+        }
+        .project-three {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 1rem;
+            padding-top: 1rem;
+            padding-bottom: 1.5rem;
+                h3 {
+                padding-bottom: 3rem;
+            }
+                .project-three-title {
+                    background-color: $light-blue;
+                    padding-top: 1rem;
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+                    padding-bottom: .5rem;
+                        h4 {
+                        padding-bottom: none;
+                    }
+                        button {
+                            margin-left: 20px;
+                        }
+                }
+                .goal-one-project-three {
+                    display: none;
+                    background-color: white;
+                    padding: none;
+                    height: 50%;
+                    img {
+                        width: 50%;
+                        height: 100%;
+                        float: left;
+                    }
+                    p {
+                        padding: 1rem;
+                        text-indent: 10px;
+                    }
+                }
+        }
+}
+.goal-two {
+    h3 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .project-four {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+            h3 {
+            padding-bottom: 3rem;
+        }
+            .project-four-title {
+                background-color: $light-blue;
+                padding-top: 1rem;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                padding-bottom: .5rem;
+                    h4 {
+                    padding-bottom: none;
+                }
+                    button {
+                        margin-left: 20px;
+                    }
+            }
+            .goal-two-project-four {
+                display: none;
+                background-color: white;
+                padding: none;
+                height: 75%;
+                img {
+                    width: 50%;
+                    height: 100%;
+                    float: left;
+                }
+                p {
+                    padding: 1rem;
+                    text-indent: 10px;
+                }
+            }
+    }
+    .project-five {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 12.5rem;
+            h3 {
+            padding-bottom: 3rem;
+        }
+            .project-five-title {
+                background-color: $light-blue;
+                padding-top: 1rem;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                padding-bottom: .5rem;
+                    h4 {
+                    padding-bottom: none;
+                }
+                    button {
+                        margin-left: 20px;
+                    }
+            }
+            .goal-two-project-five {
+                display: none;
+                background-color: white;
+                padding: none;
+                height: 50%;
+                img {
+                    width: 50%;
+                    height: 100%;
+                    float: left;
+                }
+                p {
+                    padding: 1rem;
+                    text-indent: 10px;
+                }
+            }
+    }
+
+}
+.future {
+    p {
+        padding: 2rem;
+        font-size: 20px;
+        margin: 0;
+    }
+}

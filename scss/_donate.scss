@@ -1,0 +1,54 @@
+.donate-container {
+    background-image: url('/images/donateback.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+}
+.donate-form {
+    margin-top: 5rem;
+}
+.donate-info {
+    margin-top: 5rem;
+    background-color: $project-text-grey;
+    height: 80vh;
+}
+.donate-title {
+    padding-top: 5rem;
+    font-family: helvetica;
+}
+.trustbuilder-list {
+    list-style: none;
+}
+.peacebuilder-list {
+    list-style: none;
+}
+.lifechanger-list {
+    list-style: none;
+}
+.trustbuilder-info {
+    padding: 1rem;
+    h4 {
+        font-family: helvetica;
+    }
+    li {
+        font-weight: bold;
+    }
+}
+.peacebuilder-info {
+    padding: 1rem;
+    h4 {
+        font-family: helvetica;
+    }
+    li {
+        font-weight: bold;
+    }
+}
+.lifechanger-info {
+    padding: 1rem;
+    h4 {
+        font-family: helvetica;
+    }
+    li {
+        font-weight: bold;
+    }
+}
