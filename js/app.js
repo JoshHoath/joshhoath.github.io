@@ -1,12 +1,3 @@
-$(document).ready(function() {
-    $(window).scroll(function() {
-        if($(this).scrollTop() > 2300) {
-            $('.main').addClass('bg-custom').removeClass('bg-transparent');
-        } else {
-            $('.main').removeClass('bg-custom').addClass('bg-transparents');
-        }
-    });
-});
 
  // email form
 
@@ -60,3 +51,10 @@ $('#button-four').click(function(){
 $('#button-five').click(function(){
     $(".goal-two-project-five").toggle("slow");
 })
+$('#button-six').click(function(){
+    $(".goal-two-project-six").toggle("slow");
+})
+$('#button-seven').click(function(){
+    $(".goal-two-project-seven").toggle("slow");
+})
+// button hover

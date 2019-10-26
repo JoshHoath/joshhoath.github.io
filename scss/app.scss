@@ -7,3 +7,12 @@
 @import "_newsletter";
 @import "_volunteer";
 @import "_success";
+* {
+  font-family: "candara header";
+}
+.navbar-nav {
+    margin-right: 10%;
+}
+.navbar-brand {
+    margin-left: 10%;
+}

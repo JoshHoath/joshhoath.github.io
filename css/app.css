@@ -1,9 +1,3 @@
-* {
-  font-family: sans-serif arial; }
-
-.title {
-  font-weight: normal; }
-
 .bg-custom {
   background-color: #7DA7E5; }
 
@@ -31,6 +25,15 @@
   .btn-custom a {
     color: white; }
 
+.company-name {
+  margin-left: auto;
+  margin-right: auto;
+  height: 12vh;
+  width: 40vw;
+  padding: 1rem;
+  margin-top: 20vh;
+  background-color: rgba(220, 220, 220, 0.7); }
+
 .first-image {
   background: url("/images/firemerge.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -42,17 +45,16 @@
 
 .first-call-to-action {
   width: 50%;
-  height: 25vh;
-  margin-top: 65vh;
+  height: 30vh;
+  margin-top: 30vh;
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(220, 220, 220, 0.7);
   text-align: center; }
   .first-call-to-action h1 {
-    font-size: 28px;
+    font-size: 22px;
     text-indent: 20px;
-    padding: 1rem;
-    font-family: helvetica; }
+    padding: 1rem; }
 
 .second-image {
   background: url("/images/ChildrenCarrying.jpg") no-repeat center center fixed;
@@ -72,7 +74,6 @@
   text-align: center; }
   .second-call-action h2 {
     text-align: center;
-    font-family: helvetica;
     padding: 1rem; }
   .second-call-action p {
     padding: 1rem;
@@ -97,8 +98,7 @@
   text-align: center; }
   .third-call-action h2 {
     text-align: center;
-    padding: 1rem;
-    font-family: helvetica; }
+    padding: 1rem; }
   .third-call-action p {
     padding: 1rem;
     font-size: 20px; }
@@ -107,11 +107,9 @@
   background-color: rgba(255, 248, 220, 0.5); }
   .main-page-projects h2 {
     text-align: center;
-    font-family: helvetica;
     padding-top: 2rem; }
   .main-page-projects h5 {
     text-align: center;
-    font-family: helvetica;
     padding-top: 2rem; }
   .main-page-projects .row {
     height: 100vh;
@@ -130,7 +128,6 @@
       .main-page-projects .row .project-one-panel .project-one-panel-title {
         margin-top: 3rem; }
         .main-page-projects .row .project-one-panel .project-one-panel-title h3 {
-          font-family: helvetica;
           text-align: center;
           color: white;
           padding: 1rem; }
@@ -159,7 +156,6 @@
       .main-page-projects .row .project-two-panel .project-two-panel-title {
         margin-top: 3rem; }
         .main-page-projects .row .project-two-panel .project-two-panel-title h3 {
-          font-family: helvetica;
           text-align: center;
           color: white;
           padding: 1rem; }
@@ -187,7 +183,6 @@
       .main-page-projects .row .project-three-panel .project-three-panel-title {
         margin-top: 3rem; }
         .main-page-projects .row .project-three-panel .project-three-panel-title h3 {
-          font-family: helvetica;
           text-align: center;
           color: white;
           padding: 1rem; }
@@ -215,7 +210,6 @@
       .main-page-projects .row .project-four-panel .project-four-panel-title {
         margin-top: 3rem; }
         .main-page-projects .row .project-four-panel .project-four-panel-title h3 {
-          font-family: helvetica;
           text-align: center;
           color: white;
           padding: 1rem; }
@@ -244,7 +238,6 @@
       .main-page-projects .row .project-five-panel .project-five-panel-title {
         margin-top: 3rem; }
         .main-page-projects .row .project-five-panel .project-five-panel-title h3 {
-          font-family: helvetica;
           text-align: center;
           color: white;
           padding: 1rem; }
@@ -422,7 +415,7 @@
   height: 10vh;
   width: 100%;
   color: white;
-  padding-top: 5rem;
+  padding-top: 10rem;
   text-align: center; }
 
 .mb-4 {
@@ -440,11 +433,12 @@
 
 .volunteer-title {
   width: 30%;
-  height: 40vh;
+  height: 25vh;
   margin-top: 20vh;
   margin-left: 60%;
   background-color: rgba(220, 220, 220, 0.7);
-  text-align: center; }
+  text-align: center;
+  padding: 1rem; }
   .volunteer-title h2 {
     text-align: center;
     font-family: helvetica;
@@ -505,14 +499,6 @@
       padding: 2rem; }
       .success .success-description-one h3 a {
         color: black; }
-  .success .success-description-two {
-    background-color: rgba(220, 220, 220, 0.6);
-    height: 25vh;
-    margin-top: 4rem; }
-    .success .success-description-two h3 {
-      font-size: 1.25rem;
-      text-indent: 20px;
-      padding: 2rem; }
 
 .projects {
   background-color: rgba(255, 248, 220, 0.5); }
@@ -539,7 +525,7 @@
       display: none;
       background-color: white;
       padding: none;
-      height: 50%; }
+      height: 70%; }
       .projects .project-one .goal-one-project-one img {
         width: 50%;
         height: 100%;
@@ -610,10 +596,6 @@
         padding: 1rem;
         text-indent: 10px; }
 
-.goal-two h3 {
-  padding-top: 3rem;
-  padding-bottom: 3rem; }
-
 .goal-two .project-four {
   width: 75%;
   margin-left: auto;
@@ -652,7 +634,7 @@
   margin-right: auto;
   padding: 1rem;
   padding-top: 1rem;
-  padding-bottom: 12.5rem; }
+  padding-bottom: .5rem; }
   .goal-two .project-five h3 {
     padding-bottom: 3rem; }
   .goal-two .project-five .project-five-title {
@@ -678,7 +660,86 @@
       padding: 1rem;
       text-indent: 10px; }
 
-.future p {
-  padding: 2rem;
-  font-size: 20px;
-  margin: 0; }
+.goal-two .project-six {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: .5rem; }
+  .goal-two .project-six h3 {
+    padding-bottom: 3rem; }
+  .goal-two .project-six .project-six-title {
+    background-color: #7DA7E5;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: .5rem; }
+    .goal-two .project-six .project-six-title h4 {
+      padding-bottom: none; }
+    .goal-two .project-six .project-six-title button {
+      margin-left: 20px; }
+  .goal-two .project-six .goal-two-project-six {
+    display: none;
+    background-color: white;
+    padding: none;
+    height: 50%; }
+    .goal-two .project-six .goal-two-project-six img {
+      width: 50%;
+      height: 100%;
+      float: left; }
+    .goal-two .project-six .goal-two-project-six p {
+      padding: 1rem;
+      text-indent: 10px; }
+
+.goal-two .project-seven {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: .5rem; }
+  .goal-two .project-seven h3 {
+    padding-bottom: 3rem; }
+  .goal-two .project-seven .project-seven-title {
+    background-color: #7DA7E5;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: .5rem; }
+    .goal-two .project-seven .project-seven-title h4 {
+      padding-bottom: none; }
+    .goal-two .project-seven .project-seven-title button {
+      margin-left: 20px; }
+  .goal-two .project-seven .goal-two-project-seven {
+    display: none;
+    background-color: white;
+    padding: none;
+    height: 50%; }
+    .goal-two .project-seven .goal-two-project-seven img {
+      width: 50%;
+      height: 100%;
+      float: left; }
+    .goal-two .project-seven .goal-two-project-seven p {
+      padding: 1rem;
+      text-indent: 10px; }
+
+.line hr {
+  padding-top: 5rem;
+  padding-bottom: 2rem; }
+
+.future {
+  padding-top: 2rem; }
+  .future p {
+    padding: 2rem;
+    font-size: 20px;
+    margin: 0; }
+
+* {
+  font-family: "candara header"; }
+
+.navbar-nav {
+  margin-right: 10%; }
+
+.navbar-brand {
+  margin-left: 10%; }

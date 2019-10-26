@@ -1,9 +1,4 @@
-* {
-    font-family: sans-serif arial;
-}
-.title {
-    font-weight: normal;
-}
+
 .bg-custom {
     background-color: $light-blue;
 }
@@ -35,6 +30,15 @@
             color: white;
         }
 }
+.company-name {
+    margin-left: auto;
+    margin-right: auto;
+    height: 12vh;
+    width: 40vw;
+    padding: 1rem;
+    margin-top: 20vh;
+    background-color: rgba(220, 220, 220, 0.7);
+}
 .first-image {
     background: url("/images/firemerge.jpg") no-repeat center center fixed;
      -webkit-background-size: cover;
@@ -46,17 +50,17 @@
 }
 .first-call-to-action {
     width: 50%;
-    height: 25vh;
-    margin-top: 65vh;
+    height: 30vh;
+    margin-top: 30vh;
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(220, 220, 220, 0.7);
     text-align: center;
         h1 {
-            font-size: 28px;
+            font-size: 22px;
             text-indent: 20px;
             padding: 1rem;
-            font-family: helvetica;
+
         }
 }
 .second-image{
@@ -77,7 +81,7 @@
     text-align: center;
         h2 {
             text-align: center;
-            font-family: helvetica;
+
             padding: 1rem;
         }
         p {
@@ -105,7 +109,7 @@
         h2 {
             text-align: center;
             padding: 1rem;
-            font-family: helvetica;
+
         }
         p {
             padding: 1rem;
@@ -116,12 +120,12 @@
     background-color: $biege;
         h2 {
             text-align: center;
-            font-family: helvetica;
+
             padding-top: 2rem;
         }
         h5 {
             text-align: center;
-            font-family: helvetica;
+
             padding-top: 2rem;
         }
         .row {
@@ -141,7 +145,7 @@
                         .project-one-panel-title {
                             margin-top: 3rem;
                             h3 {
-                                font-family: helvetica;
+
                                 text-align: center;
                                 color: white;
                                 padding: 1rem;
@@ -176,7 +180,7 @@
                     .project-two-panel-title {
                         margin-top: 3rem;
                         h3 {
-                            font-family: helvetica;
+
                             text-align: center;
                             color: white;
                             padding: 1rem;
@@ -211,7 +215,7 @@
                         .project-three-panel-title {
                             margin-top: 3rem;
                             h3 {
-                                font-family: helvetica;
+
                                 text-align: center;
                                 color: white;
                                 padding: 1rem;
@@ -245,7 +249,7 @@
                         .project-four-panel-title {
                             margin-top: 3rem;
                                 h3 {
-                                    font-family: helvetica;
+
                                     text-align: center;
                                     color: white;
                                     padding: 1rem;
@@ -280,7 +284,7 @@
                     .project-five-panel-title {
                             margin-top: 3rem;
                                 h3 {
-                                    font-family: helvetica;
+
                                     text-align: center;
                                     color: white;
                                     padding: 1rem;

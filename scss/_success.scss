@@ -15,16 +15,6 @@
                     }
             }
     }
-    .success-description-two {
-        background-color: $project-text-grey;
-        height: 25vh;
-        margin-top: 4rem;
-        h3 {
-            font-size: 1.25rem;
-            text-indent: 20px;
-            padding: 2rem;
-        }
-    }
 }
 .projects {
     background-color: $biege;
@@ -55,7 +45,7 @@
                     display: none;
                     background-color: white;
                     padding: none;
-                    height: 50%;
+                    height: 70%;
                     img {
                         width: 50%;
                         height: 100%;
@@ -147,10 +137,6 @@
         }
 }
 .goal-two {
-    h3 {
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-    }
     .project-four {
         width: 75%;
         margin-left: auto;
@@ -196,7 +182,7 @@
         margin-right: auto;
         padding: 1rem;
         padding-top: 1rem;
-        padding-bottom: 12.5rem;
+        padding-bottom: .5rem;
             h3 {
             padding-bottom: 3rem;
         }
@@ -229,9 +215,94 @@
                 }
             }
     }
+    .project-six {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1rem;
+        padding-top: 1rem;
+        padding-bottom: .5rem;
+            h3 {
+            padding-bottom: 3rem;
+        }
+            .project-six-title {
+                background-color: $light-blue;
+                padding-top: 1rem;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                padding-bottom: .5rem;
+                    h4 {
+                    padding-bottom: none;
+                }
+                    button {
+                        margin-left: 20px;
+                    }
+            }
+            .goal-two-project-six {
+                display: none;
+                background-color: white;
+                padding: none;
+                height: 50%;
+                img {
+                    width: 50%;
+                    height: 100%;
+                    float: left;
+                }
+                p {
+                    padding: 1rem;
+                    text-indent: 10px;
+                }
+            }
+    }
+    .project-seven {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1rem;
+        padding-top: 1rem;
+        padding-bottom: .5rem;
+            h3 {
+            padding-bottom: 3rem;
+        }
+            .project-seven-title {
+                background-color: $light-blue;
+                padding-top: 1rem;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                padding-bottom: .5rem;
+                    h4 {
+                    padding-bottom: none;
+                }
+                    button {
+                        margin-left: 20px;
+                    }
+            }
+            .goal-two-project-seven {
+                display: none;
+                background-color: white;
+                padding: none;
+                height: 50%;
+                img {
+                    width: 50%;
+                    height: 100%;
+                    float: left;
+                }
+                p {
+                    padding: 1rem;
+                    text-indent: 10px;
+                }
+            }
+    }
 
 }
+.line {
+    hr {
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+    }
+}
 .future {
+    padding-top: 2rem;
     p {
         padding: 2rem;
         font-size: 20px;
